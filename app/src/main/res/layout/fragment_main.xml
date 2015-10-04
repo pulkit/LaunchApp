@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:background="#ff1f141c">
+
+
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/Base.TextAppearance.AppCompat.Button"
+        android:id="@+id/button_send"
+        android:layout_width="66pt"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:onClick="FirstApp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ff84ff58" />
+
+    <Button
+        android:layout_width="66pt"
+        android:layout_height="wrap_content"
+        android:text="Scores App"
+        android:id="@+id/button"
+        android:onClick="SecondApp"
+        android:layout_below="@+id/button_send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ff84ff58" />
+
+    <Button
+        android:layout_width="66pt"
+        android:layout_height="wrap_content"
+        android:text="Library App"
+        android:id="@+id/button2"
+        android:onClick="ThirdApp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ff84ff58" />
+
+    <Button
+        android:layout_width="66pt"
+        android:layout_height="wrap_content"
+        android:text="Built it Bigger"
+        android:id="@+id/button3"
+        android:onClick="FourthApp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ff84ff58" />
+
+    <Button
+        android:layout_width="66pt"
+        android:layout_height="wrap_content"
+        android:text="Bacon Reader"
+        android:id="@+id/button4"
+        android:onClick="FifthApp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#ff84ff58" />
+    <Button
+        android:layout_width="66pt"
+        android:layout_height="wrap_content"
+        android:text="My Own App"
+        android:id="@+id/button5"
+        android:onClick="MyOwnApp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#fffff663" />
+
+</RelativeLayout>
